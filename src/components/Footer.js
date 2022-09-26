@@ -27,9 +27,9 @@ const Footer = () => {
 
         </div>
     </div>
-  <hr />
+  <hr className='my-7'/>
     </div>
-    <div className="bottom_most flex mx-[300px] my-[40px]">
+    <div className="bottom_most flex mx-[300px]">
 <div className='px-20'>
 <h1>Terms Of Service</h1>
 </div>
@@ -39,8 +39,8 @@ const Footer = () => {
 <div className='px-20'>
 <h1>Content Policy</h1>
 </div>
-    </div>
- 
+</div>
+    <h1 className='text-white  bg-gray-900'>© Copyright 2022 NFTHACKS. All rights reserved</h1>
  </div>
   )
 }

@@ -2,14 +2,14 @@ import React from 'react'
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Blogs from './components/About';
-import About from './components/Blogs';
+import About from './components/About';
+import Blogs from './components/Blogs';
 import Hello from './components/Hello';
 import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className='box-border'>
+    <div className='bg-gray-700'>
   <Router>
     <Navbar />
     <Routes>
